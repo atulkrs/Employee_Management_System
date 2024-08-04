@@ -29,14 +29,14 @@ Make sure you have the following software installed on your machine:
     ```sh
     npm install
 
-2. **Set up environment variables**
+2. **Set up for Headers**
 
     ```sh
     REACT_APP_PROJECT_ID=your_project_id
     REACT_APP_ENVIRONMENT_ID=your_environment_id
     ```
 
-    You can delete the .env file. I created just for reference for the projectId and EnvironementId. you make sure to Replace `your_project_id` and `your_environment_id` with your actual Cosmocloud project ID, environment ID and **API Link** wherever I used the header.
+       Replace `your_project_id` and `your_environment_id` with your actual Cosmocloud project ID, environment ID and **API Link**.
 
 
 ### Running the Application

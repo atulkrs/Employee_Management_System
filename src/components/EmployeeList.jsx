@@ -15,8 +15,8 @@ const EmployeeList = () => {
           "https://free-ap-south-1.cosmocloud.io/development/api/emp?limit=10&offset=0",
           {
             headers: {
-              projectId: "66aa93c1f0b1983e001ffecf",
-              environmentId: "66aa93c1f0b1983e001ffed0",
+              projectId: process.env.REACT_APP_PROJECT_ID,
+              environmentId: process.env.REACT_APP_ENVIRONMENT_ID,
             },
           }
         );
@@ -49,8 +49,8 @@ const EmployeeList = () => {
         {
           method: "DELETE",
           headers: {
-            projectId: "66aa93c1f0b1983e001ffecf",
-            environmentId: "66aa93c1f0b1983e001ffed0",
+            projectId: process.env.REACT_APP_PROJECT_ID,
+            environmentId: process.env.REACT_APP_ENVIRONMENT_ID,
             "Content-Type": "application/json",
           },
           body: JSON.stringify({}),

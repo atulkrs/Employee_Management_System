@@ -59,8 +59,8 @@ const AddEmployee = () => {
         {
           headers: {
             "Content-Type": "application/json",
-            projectId: "66aa93c1f0b1983e001ffecf",
-            environmentId: "66aa93c1f0b1983e001ffed0",
+            projectId: process.env.REACT_APP_PROJECT_ID,
+            environmentId: process.env.REACT_APP_ENVIRONMENT_ID,
           },
         }
       );

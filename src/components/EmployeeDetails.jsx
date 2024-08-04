@@ -14,8 +14,8 @@ const EmployeeDetails = React.memo(() => {
         `https://free-ap-south-1.cosmocloud.io/development/api/emp/${id}`,
         {
           headers: {
-            projectId: "66aa93c1f0b1983e001ffecf",
-            environmentId: "66aa93c1f0b1983e001ffed0",
+            projectId: process.env.REACT_APP_PROJECT_ID,
+            environmentId: process.env.REACT_APP_ENVIRONMENT_ID,
           },
         }
       );
